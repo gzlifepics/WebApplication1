@@ -56,6 +56,8 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="FeatureA.aspx" />
+    <Content Include="FeatureB.aspx" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
@@ -112,6 +114,19 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FeatureA.aspx.cs">
+      <DependentUpon>FeatureA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FeatureA.aspx.designer.cs">
+      <DependentUpon>FeatureA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FeatureB.aspx.cs">
+      <DependentUpon>FeatureB.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FeatureB.aspx.designer.cs">
+      <DependentUpon>FeatureB.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
